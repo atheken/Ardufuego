@@ -37,7 +37,7 @@ void FireplaceRF::sendMsg(int msg, int val)
   for (int x = 1; x <= MSG_REPEAT; x++) {
     transmit(header, HEAD_SIZE, HEAD_BYTE, HEAD_BREAK);
     for (int y = 0; y < 3; y++) {
-      transmit(start[y], BODY_SIZE, BODY_BYTE, BODY_BREAK);
+      transmit(startFlame[y], BODY_SIZE, BODY_BYTE, BODY_BREAK);
     }      
     for (int z = 0; z < 3; z++) {
       switch(msg) {

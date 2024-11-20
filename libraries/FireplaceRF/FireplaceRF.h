@@ -87,7 +87,7 @@
 
       const unsigned long header[4] = {860, 380, 880, 380};
 
-      const unsigned long start[3][8] = {
+      const unsigned long startFlame[3][8] = {
         {OO, XX, XX, OO, OO, OO, OO, XX},
         {OO, XX, OO, OO, XX, XX, XX, OO},
         {OO, OO, XX, XX, OO, OO, XX, XX}
